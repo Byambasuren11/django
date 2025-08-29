@@ -5,7 +5,7 @@ urlpatterns = [
     path('api/create-user/', create_user, name='create_user'),
     path('api/check-user/', check_user, name='check_user'),
     path('signup/', signup_view, name='signup'),
-    path('api/test/', test_api, name='test_api'),  # ← энэ өмнө нь syntax алдаатай байсан
+    path('api/test/', test_api, name='test_api'), 
 ]
 
 
